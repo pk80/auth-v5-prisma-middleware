@@ -41,7 +41,11 @@ yarn-error.log*
 next-env.d.ts
 
 # prisma
-/app/generated/prisma
+/app/generated/
 
 # vscode
 /.vscode/
+
+# temporary
+/tmp/
+/app/generated/prisma
