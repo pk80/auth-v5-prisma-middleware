@@ -1,6 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Auth-V5-Prisma-Middleware
+
+## Resources
+- [Part - 1](https://youtu.be/Yb-4AswBEdM)
+- [Authjs Prisma adapter](https://authjs.dev/getting-started/adapters/prisma)
+
+
+## Commands
+```zsh
+# Create Project
+npx create-next-app@latest
+# RM 
+# => install prisma cli locally to interact prisma project from the command line
+npm i --save-dev prisma
+# initialize prisma
+# => creates prisma schema folder, prisma.config file and .env file
+npx prisma init
+# NOTE: change the DATABSE_URL in env file to your database connection
+# Define models in prisma schema folder
+# then everytime you change schema run following 3 commands always
+npx prisma db push
+npx prisma generate
+npx prisma studio
+# install client
+npm i --save-dev @prisma/client
+```
+
+## Prisma
+- [Set up Prisma](https://v1.prisma.io/docs/1.34/get-started/01-setting-up-prisma-demo-server-TYPESCRIPT-t001/)
 
 ## Getting Started
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 First, run the development server:
 
