@@ -43,5 +43,5 @@ next-env.d.ts
 # prisma
 /app/generated/prisma
 
-# vs code
+# vscode
 /.vscode/

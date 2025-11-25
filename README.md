@@ -23,6 +23,9 @@ npx prisma generate
 npx prisma studio
 # install client
 npm i --save-dev @prisma/client
+# Authjs
+npm install @auth/prisma-adapter
+npm install next-auth@beta
 ```
 
 ## Prisma
