@@ -2,6 +2,7 @@
 
 ## Resources
 - [Part - 1](https://youtu.be/Yb-4AswBEdM)
+- [Part - 2](https://youtu.be/ykDcnlzneGg)
 - [Authjs Prisma adapter](https://authjs.dev/getting-started/adapters/prisma)
 
 
@@ -18,8 +19,8 @@ npx prisma init
 # NOTE: change the DATABSE_URL in env file to your database connection
 # Define models in prisma schema folder
 # then everytime you change schema run following 3 commands always
-npx prisma db push
 npx prisma generate
+npx prisma db push
 npx prisma studio
 # install client
 npm i --save-dev @prisma/client
