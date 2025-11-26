@@ -1,37 +1,5 @@
 # Auth-V5-Prisma-Middleware
 
-## Resources
-- [Part - 1](https://youtu.be/Yb-4AswBEdM)
-- [Part - 2](https://youtu.be/ykDcnlzneGg)
-- [Authjs Prisma adapter](https://authjs.dev/getting-started/adapters/prisma)
-
-
-## Commands
-```zsh
-# Create Project
-npx create-next-app@latest
-# RM 
-# => install prisma cli locally to interact prisma project from the command line
-npm i --save-dev prisma
-# initialize prisma
-# => creates prisma schema folder, prisma.config file and .env file
-npx prisma init
-# NOTE: change the DATABSE_URL in env file to your database connection
-# Define models in prisma schema folder
-# then everytime you change schema run following 3 commands always
-npx prisma generate
-npx prisma db push
-npx prisma studio
-# install client
-npm i --save-dev @prisma/client
-# Authjs
-npm install @auth/prisma-adapter
-npm install next-auth@beta
-```
-
-## Prisma
-- [Set up Prisma](https://v1.prisma.io/docs/1.34/get-started/01-setting-up-prisma-demo-server-TYPESCRIPT-t001/)
-
 ## Getting Started
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -67,3 +35,44 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## Resources
+- [Part - 1](https://youtu.be/Yb-4AswBEdM)
+- [Part - 2](https://youtu.be/ykDcnlzneGg) : [current](https://youtu.be/ykDcnlzneGg?t=1450)
+- [All Parts - GitHub](https://github.com/bwestwood11/authjs-v5-tutorial/tree/main)
+- [Authjs Prisma adapter](https://authjs.dev/getting-started/adapters/prisma)
+- [Shadcn components for NextJs](https://ui.shadcn.com/docs/installation/next)
+
+
+## Commands
+```zsh
+# Create Project
+npx create-next-app@latest
+# RM 
+# => install prisma cli locally to interact prisma project from the command line
+npm i --save-dev prisma
+# initialize prisma
+# => creates prisma schema folder, prisma.config file and .env file
+npx prisma init
+# NOTE: change the DATABSE_URL in env file to your database connection
+# Define models in prisma schema folder
+# then everytime you change schema run following 3 commands always
+npx prisma generate
+npx prisma db push
+npx prisma studio
+# install client
+npm i --save-dev @prisma/client
+# Authjs
+npm install @auth/prisma-adapter
+npm install next-auth@beta
+# Shadcn components
+npx shadcn@latest init
+npx shadcn@latest add button
+npx shadcn@latest add form
+# Zod
+npm i zod
+```
+
+## Prisma
+- [Set up Prisma](https://v1.prisma.io/docs/1.34/get-started/01-setting-up-prisma-demo-server-TYPESCRIPT-t001/)

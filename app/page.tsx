@@ -1,9 +1,9 @@
+import LoginForm from "@/components/auth/LoginForm";
+
 export default function Home() {
   return (
-    <div >
-      <main>
-        <h1>Prisma Project</h1>
-      </main>
-    </div>
+    <section className="container">
+      <LoginForm />
+    </section>
   );
 }
