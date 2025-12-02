@@ -1,9 +1,8 @@
-import LoginForm from "@/components/auth/LoginForm";
 
 export default function Home() {
   return (
     <section className="container">
-      <LoginForm />
+      <h2>Home Page</h2>
     </section>
   );
 }

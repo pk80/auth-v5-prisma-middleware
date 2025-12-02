@@ -4,9 +4,7 @@ import RegisterForm from "@/components/auth/RegisterForm"
 
 const RegisterPage = () => {
     return (
-        <section className="container">
-            <RegisterForm />
-        </section>
+        <RegisterForm />
     )
 }
 

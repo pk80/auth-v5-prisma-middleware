@@ -122,8 +122,24 @@
   }
 }
 
+.checkerboard {
+  background-color: white;
+  /* Base color */
+  background-image: linear-gradient(45deg,
+      rgba(0, 0, 0, 0.1) 25%,
+      transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(0, 0, 0, 0.1) 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
 @layer utilities {
   .container {
     @apply block items-center mx-auto mt-4;
   }
+
+  .auth-layout-pattern {
+    @apply absolute inset-0 -z-10 h-full w-full bg-white bg-linear-to-r from-[#f0f0f0] to-transparent bg-size-[6rem_6rem];
+  }
+
 }

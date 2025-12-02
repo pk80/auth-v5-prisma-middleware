@@ -43,6 +43,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - [All Parts - GitHub](https://github.com/bwestwood11/authjs-v5-tutorial/tree/main)
 - [Authjs Prisma adapter](https://authjs.dev/getting-started/adapters/prisma)
 - [Shadcn components for NextJs](https://ui.shadcn.com/docs/installation/next)
+- [TailwindCSS cheat sheet](https://flowbite.com/tools/tailwind-cheat-sheet/)
 
 
 ## Commands
